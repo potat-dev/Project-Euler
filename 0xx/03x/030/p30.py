@@ -1,0 +1,1 @@
+print(sum([i for i in range(10, 10**6) if i == sum([int(n)**5 for n in str(i)])]))
